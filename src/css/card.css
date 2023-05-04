@@ -1,0 +1,72 @@
+.container{
+  position: absolute;
+  bottom:102%;
+  width: 30%;
+  height: 38vh;
+  background-color: bisque;
+  padding-top: 15px;
+
+  
+}
+.userDetails{
+  position: absolute;
+  bottom: 104%;
+  display: grid;
+  left: 27%;
+  
+}
+.card{
+  margin: 300px;
+  background-color:white;
+  width: 50%;
+  height: 50vh;
+  margin-left:300px;
+  border-radius: 50px;
+  
+}
+.card h1{
+  position: absolute;
+  right: 70%;
+  bottom: -2%;
+}
+.card .card-body{
+  position: absolute;
+  left: 45%;
+  bottom: 9%;
+  display:grid;
+  transform: scale(1.3);
+  font-weight: bolder;
+  align-items: center;
+  /* grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);  */
+}
+.email{
+  padding-right:3px;
+}
+.cycle{
+  width: 20%;
+  height: 40vh;
+  /* background-color: aqua; */
+  position: absolute;
+  right: 58%;
+  top: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:aliceblue;
+}
+.profile{
+  position: absolute;
+  border-radius: 50%;
+  object-fit:cover ;
+  bottom: 0%;
+  width: 150px;
+  height: 150px;
+  left: 29%;
+  top: -12%;
+}
+
+
+
+  
